@@ -1,0 +1,235 @@
+.alt-font {
+	font-family: "Segoe UI","calibri", sans-serif;
+	font-weight: 500;
+}
+a, button,a:hover, a:active, button:active {
+    outline: none !important;
+}
+a:hover {
+    text-decoration: none;
+}
+.container, .container-fluid {
+    width: 1070px !important;
+}
+.pageheader {
+	background: #eee;
+	padding: 30px 0;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.pageheader h2 {
+	font-size: 25px;
+	color: #202020;
+	margin-bottom: 3px;
+}
+.pageheader span {
+	color: #777;
+}
+legend {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+legend>span {
+    border-bottom: 2px solid #009BE4;
+    display: inline-block;
+}
+.first-container {
+    padding:0 0 40px 0;
+    min-height: 210px;
+}
+.nodata {
+    display: block;
+    text-align: center;
+    padding: 40px;
+    background-color: #EEE;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+}
+.nodata p {
+    font-weight: 500;
+    display: inline;
+    font-size: 22px;
+}
+.nodata i {
+    font-size: 22px;
+    margin-right: 10px;
+    vertical-align: baseline;
+}
+/*Component: Small boxes*/
+.small-box {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+.small-box .inner {
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #F4D03F  ;
+    color: #566573  ;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.small-box .inner i {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.small-box .inner:hover {
+    background-color: #566573 ;
+    color: #F4D03F ;
+}
+/*---------Dropdown---------*/
+.dropdown-menu {
+    box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+    z-index: 2300;
+}
+.dropdown-menu li a {
+    padding: 10px 15px;
+    font-weight: 500;
+}
+.dropdown-menu li a:hover {
+	background-color: #2196F3;
+	color: #fffff1;
+}
+.dropdown-menu li a i{
+    vertical-align: -1px;
+}
+.open > .dropdown-menu {
+	padding: 0 !important;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        -ms-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/*--------- Navbar ---------*/
+.navbar {
+	min-height: 90px;
+}
+.navbar-default {
+	border-radius: 0;
+	border: none;
+	background-color: transparent;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	margin-top: 20px;
+}
+.navbar-default .logo {
+	background-image: url(../images/logo1.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	width: 190px;
+	height: 150px;
+}
+.nav-container {
+	position: absolute;
+	width: 100%;
+	color: #FFF;
+}
+.info-bar {
+	margin-top: 16px;
+	margin-left: 30px;
+}
+.info-bar .btn {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.info-bar span {
+	vertical-align: -10px;
+}
+.info-bar span i {
+	margin-right: 5px;
+}
+.info-bar:after {
+	clear: both;
+}
+#navbar {
+	margin-top: 10px;
+}
+.main-nav, .client-nav {
+	margin-top: 25px;
+    margin-left: -3px;
+	font-size: 16px !important;
+}
+.nav-bg {
+	background-color: #64B5F6;
+	background-image: url(../images/bg.png);
+	min-height: 250px;
+	color: #FFF;
+}
+footer {
+	padding: 20px;
+	background-color: #B9770E;
+	color: #fff;
+	text-align: center;
+}
+footer a {
+	color: #fbfbfb;
+}
+footer a:hover {
+	color: #FFF;
+}
+/*============================================
+                Login page styles
+==============================================*/
+.form-login {
+    margin: 40px 0;
+}
+.form-login h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    margin-top: 0px;
+}
+.form-login label {
+    text-align: left !important;
+    margin-bottom: 5px !important;
+    font-size: 14px;
+}
+.form-login .form-control {
+    line-height: 28px;
+    height: 40px;
+    font-family: "Segoe UI","calibri", sans-serif;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.form-login button {
+	padding: 8px 20px;
+}
